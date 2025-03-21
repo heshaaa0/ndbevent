@@ -24,7 +24,7 @@ body {
   overflow: hidden;
 }
 #video-background {
-  background-image: url("Spin\ the\ wheel\ .jpg") center center fixed;
+  background-image: url("Spin\ the\ wheel\ .jpg");
   background-size: cover;
   position: fixed;
   right: 0;
