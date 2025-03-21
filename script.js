@@ -111,7 +111,7 @@ const generateValue = (angleValue) => {
         break;
       } else if (331 <= i.minDegree && i.maxDegree <= 360) {
         gifttext.innerHTML = `<p>GIFT</p>`;
-        txt.style.display = "none";
+        // txt.style.display = "none";
         gifttext.classList.add("gift-animation");
         gift.style.display = "block";
 
@@ -123,7 +123,7 @@ const generateValue = (angleValue) => {
       } else if (241 <= i.minDegree && i.maxDegree <= 270) {
         gifttext.innerHTML = `<p>GIFT</p>`;
         gifttext.classList.add("gift-animation");
-        txt.style.display = "none";
+        // txt.style.display = "none";
         gift.style.display = "block";
 
         spinBtn.disabled = false;
@@ -134,7 +134,7 @@ const generateValue = (angleValue) => {
       } else if (151 <= i.minDegree && i.maxDegree <= 180) {
         gifttext.innerHTML = `<p>GIFT</p>`;
         gifttext.classList.add("gift-animation");
-        txt.style.display = "none";
+        // txt.style.display = "none";
         gift.style.display = "block";
 
         spinBtn.disabled = false;
@@ -148,7 +148,7 @@ const generateValue = (angleValue) => {
       } else if (61 <= i.minDegree && i.maxDegree <= 90) {
         gifttext.innerHTML = `<p>GIFT</p>`;
         gifttext.classList.add("gift-animation");
-        txt.style.display = "none";
+        // txt.style.display = "none";
         gift.style.display = "block";
 
         spinBtn.disabled = false;
@@ -261,6 +261,6 @@ function reset() {
   text.innerHTML = `<p></p>`;
   gifttext.innerHTML = `<p></p>`;
   gift.style.display = "none";
-  txt.style.display = "block";
+  // txt.style.display = "block";
   spinBtn.disabled = false;
 }
