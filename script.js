@@ -95,7 +95,7 @@ let spinChart = new Chart(spinWheel, {
 
 /* --------------- Variables for Player and Win Tracking --------------------- */
 let totalPlayers = 1; // Track total players
-const maxWins = 30; // Maximum wins allowed
+const maxWins = 5; // Maximum wins allowed
 let currentWins = 1; // Current wins
 let totalSpins = 1; // Track total spins
 
