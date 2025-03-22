@@ -247,7 +247,7 @@ spinBtn.addEventListener("click", () => {
 
 // Function to log the probability of winning
 function logWinningProbability() {
-  const probability = (currentWins / totalSpins) * 1; // Calculate probability as a percentage
+  const probability = (currentWins / totalSpins) * 0; // Calculate probability as a percentage
   console.log(`Winning Probability: ${probability.toFixed(2)}%`);
 }
 
